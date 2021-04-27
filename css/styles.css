@@ -1,0 +1,34 @@
+#parallax_one {
+background-image: url('https://static01.nyt.com/images/2020/04/13/nyregion/00nyvirus-streets001/00nyvirus-streets001-videoSixteenByNineJumbo1600.jpg');
+background-position: top center;  
+}
+
+#parallax_two {
+background-image: url('https://i.ytimg.com/vi/zMvyFfA-GM8/maxresdefault.jpg');
+    
+}
+
+
+#parallax_three {
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWHPz9WpWy89zS-IvObLzAia7g_vWo6oQqLg&usqp=CAU');
+}
+
+#parallax_four {
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlv3uQbw0xhU3VJ26m91NUugeJ8MYU20SzOQ&usqp=CAU');
+}
+.parallax_effect {
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;               
+/* moved background position to an ID */
+background-attachment: fixed;
+}
+
+
+.parallax_wrapper {
+    background-color: grey;
+    width: 800px;
+    height: 360px;
+    border-radius: 25px;
+    margin: 6rem auto;
+}
