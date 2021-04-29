@@ -11,9 +11,22 @@
 </head>
 <body>
 
-    <div class="parallax_effect">
 
-    <div class= "container-fluid" id= "parallax_one">
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Nav
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Home</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+<!-- <div class="parallax_effect"> -->
+
+    <div class= "parallax_effect" id= "parallax_one">
         <div class="parallax_wrapper">
             <p>title</p>
             <p>date</p>
@@ -23,7 +36,7 @@
     </div>
 
     
-    <div class= "container-fluid" id= "parallax_two">
+    <div class= "parallax_effect" id= "parallax_two">
         <div class="parallax_wrapper">
             <p>title</p>
             <p>date</p>
@@ -33,7 +46,7 @@
     </div>
 
     
-    <div class= "container-fluid" id= "parallax_three">
+    <div class= "parallax_effect" id= "parallax_three">
         <div class="parallax_wrapper">
             <p>title</p>
             <p>date</p>
@@ -43,7 +56,10 @@
     </div>
 
     
-    <div class= "container-fluid" id= "parallax_four">
+
+    <!-- changed <div class= "container-fluid"></div> TO parallax_effect -->
+
+    <div class= "parallax_effect" id= "parallax_four">
         <div class="parallax_wrapper">
             <p>title</p>
             <p>date</p>
@@ -52,7 +68,7 @@
         </div>
     </div>
 
-</div>
+<!-- </div> -->
 <!-- create a class dedicated to parallax styling -->
 
 

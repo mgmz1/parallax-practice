@@ -1,34 +1,49 @@
 #parallax_one {
-background-image: url('https://static01.nyt.com/images/2020/04/13/nyregion/00nyvirus-streets001/00nyvirus-streets001-videoSixteenByNineJumbo1600.jpg');
+background-image: url('../img/pexels-lake.jpg');
 background-position: top center;  
 }
 
 #parallax_two {
-background-image: url('https://i.ytimg.com/vi/zMvyFfA-GM8/maxresdefault.jpg');
-    
+background-image: url('../img/pexels-SF.jpg');
+background-position: top center;  
 }
 
 
 #parallax_three {
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWHPz9WpWy89zS-IvObLzAia7g_vWo6oQqLg&usqp=CAU');
+background-image: url('../img/pexels-venice.jpg');
+background-position: top center;  
 }
 
 #parallax_four {
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlv3uQbw0xhU3VJ26m91NUugeJ8MYU20SzOQ&usqp=CAU');
+background-image: url('../img/pexels-beach.jpg');
+background-position: top center;
 }
+
+
 .parallax_effect {
 height: 700px;
 background-repeat: no-repeat;
-background-size: cover;               
+background-size: cover; 
 /* moved background position to an ID */
+/* background-attatchment is what makes it parallax */
 background-attachment: fixed;
+
+/* background-position: center; */
+
+
 }
 
 
 .parallax_wrapper {
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.486);
     width: 800px;
     height: 360px;
     border-radius: 25px;
     margin: 6rem auto;
+    text-align: center;
+    color: white;
+}
+
+.dropdown {
+position: center;
 }
